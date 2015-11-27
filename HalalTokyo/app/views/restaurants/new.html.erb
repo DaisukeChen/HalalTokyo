@@ -1,0 +1,12 @@
+<div class="contents row">
+    <%= form_tag('/restaurants', :method => :post) do %>
+      <h3>
+        登録する
+      </h3>
+      <input placeholder="restaurant_name" type="text" name="name">
+      <input placeholder="image_Url" type="text" name="image_url">
+      <input placeholder="web_url" type="text" name="web_url">
+      <textarea cols="30" name="detail" placeholder="detail" rows="10"></textarea>
+      <input type="submit" value="SENT">
+    <% end %>
+  </div>
